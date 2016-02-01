@@ -1,0 +1,3 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD02,HD02_VD02,HD01_VD03,HD02_VD03,HD01_VD04,HD02_VD04
+Id,Id2,Geography,Estimate; Median value -- - Total:,Margin of Error; Median value -- - Total:,Estimate; Median value -- - Total: - Median value for units with a mortgage,Margin of Error; Median value -- - Total: - Median value for units with a mortgage,Estimate; Median value -- - Total: - Median value for units without a mortgage,Margin of Error; Median value -- - Total: - Median value for units without a mortgage
+0100000US,,United States,175700,224,193500,211,146300,312

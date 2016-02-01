@@ -1,0 +1,29 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+HD01_VD01,Estimate; Total:
+HD02_VD01,Margin of Error; Total:
+HD01_VD02,Estimate; Under 18 years:
+HD02_VD02,Margin of Error; Under 18 years:
+HD01_VD03,Estimate; Under 18 years: - With one type of disability
+HD02_VD03,Margin of Error; Under 18 years: - With one type of disability
+HD01_VD04,Estimate; Under 18 years: - With two or more types of disability
+HD02_VD04,Margin of Error; Under 18 years: - With two or more types of disability
+HD01_VD05,Estimate; Under 18 years: - No disability
+HD02_VD05,Margin of Error; Under 18 years: - No disability
+HD01_VD06,Estimate; 18 to 64 years:
+HD02_VD06,Margin of Error; 18 to 64 years:
+HD01_VD07,Estimate; 18 to 64 years: - With one type of disability
+HD02_VD07,Margin of Error; 18 to 64 years: - With one type of disability
+HD01_VD08,Estimate; 18 to 64 years: - With two or more types of disability
+HD02_VD08,Margin of Error; 18 to 64 years: - With two or more types of disability
+HD01_VD09,Estimate; 18 to 64 years: - No disability
+HD02_VD09,Margin of Error; 18 to 64 years: - No disability
+HD01_VD10,Estimate; 65 years and over:
+HD02_VD10,Margin of Error; 65 years and over:
+HD01_VD11,Estimate; 65 years and over: - With one type of disability
+HD02_VD11,Margin of Error; 65 years and over: - With one type of disability
+HD01_VD12,Estimate; 65 years and over: - With two or more types of disability
+HD02_VD12,Margin of Error; 65 years and over: - With two or more types of disability
+HD01_VD13,Estimate; 65 years and over: - No disability
+HD02_VD13,Margin of Error; 65 years and over: - No disability
