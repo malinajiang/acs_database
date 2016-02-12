@@ -1,9 +1,0 @@
-GEO.id,Id
-GEO.id2,Id2
-GEO.display-label,Geography
-HD01_VD02,Estimate; Median value -- - Total:
-HD02_VD02,Margin of Error; Median value -- - Total:
-HD01_VD03,Estimate; Median value -- - Total: - Median value for units with a mortgage
-HD02_VD03,Margin of Error; Median value -- - Total: - Median value for units with a mortgage
-HD01_VD04,Estimate; Median value -- - Total: - Median value for units without a mortgage
-HD02_VD04,Margin of Error; Median value -- - Total: - Median value for units without a mortgage
