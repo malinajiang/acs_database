@@ -42,7 +42,7 @@ create table acs_data (
 
 drop table if exists county_zip;
 create table county_zip (
-	county text,
 	zip text,
+	county text,
 	population text
 );

@@ -12,7 +12,8 @@ def parse_acs(data):
         for line in f:
             row = line.replace('\n', '').split('\t')
             row = [format_string(word) for word in row]
-            if row[0] == 'GEOID':
+            
+            if row[0] == '"GEOID"':
                 continue
 
             county = row[2]
@@ -81,12 +82,13 @@ def parse_county(data):
 
     with open(data) as f:
         for line in f:
-            row = line.replace('\n', '').split(',')
+            row = line.replace('\r', '').replace('\n', '').split(',')
             row = [format_string(word) for word in row]
-            if row[0] == 'zip':
+
+            if row[0] == '"zip"':
                 continue
 
-            zipcode = row[0]
+            zipcode = row[0].zfill(5)
             county = row[1]
             population = row[2]
 
@@ -97,6 +99,7 @@ def parse_county(data):
             ]) + '\n')
 
 def main(argv):
+    # usage: python parse.py acs_data.asc county_zip.csv
     acs_data = argv[1]
     parse_acs(acs_data)
 
