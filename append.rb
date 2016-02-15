@@ -13,8 +13,8 @@ def append_variables(csv_file, variable)
     	query = 'select county from county_zip where zip = "' + zip + '"'
     	county = $db.execute query
     	query = 'select ' + variable + ' from acs_data where county = ' + county[0]
-    	variable = $db.execute query
-    	puts variable
+    	result = $db.execute query
+    	puts result
     end
 end
 
